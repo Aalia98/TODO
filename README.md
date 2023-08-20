@@ -1,5 +1,7 @@
 # TODO-APP
 
+- Tech Stack - HTML , CSS , JavaScript
+
 - The classic todo app with a few twists! 
 
 - Features -----------
