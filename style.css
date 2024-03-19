@@ -41,6 +41,7 @@ body{
 .todo{
     width: 600px;
     max-height: 498px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 form{
     width: 100%;
@@ -59,7 +60,7 @@ form input{
     border: none;
 }
 input::placeholder{
-    color: #fff;
+    color: hsl(234, 11%, 52%);
     letter-spacing: 2px;
 }
 .list{
@@ -76,12 +77,11 @@ input::placeholder{
     display: flex;
     background-color: hsl(235, 24%, 19%);
     padding: 1rem 0.9rem;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     font-style: italic;
     font-size: 18px;
     align-items: center;
 }
+
 .todo-li p{
     width: 92%;
     color: #fff;
@@ -136,9 +136,9 @@ input::placeholder{
 .info p:hover{
  color: hsl(220, 98%, 61%);
 }
-.active{
+/* .active{
     color: hsl(220, 98%, 61%);
-}
+} */
 .active-check{
     background: linear-gradient( hsl(192, 100%, 67%) , hsl(280, 87%, 65%));
 }

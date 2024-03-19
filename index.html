@@ -11,8 +11,10 @@
     <div class="banner">
       <div class="content">
         <h1>TODO</h1>
-        <img src="./images/icon-sun.svg" alt="">
-      </div>
+        <div class="dark-light">
+          <img id="image" src="./images/icon-sun.svg" alt="">
+        </div>
+            </div>
       <div class="todo">
         <form id="todo-form">
           <input type="text" placeholder="Create a new todo.." id="todo-input">
@@ -30,11 +32,11 @@
           </div>
         </div>
         <div class="info">
-          <p class="left"><span id="items-left"></span> items left</p>
+          <p class="left"><span id="items-left">0</span> items left</p>
           <div class="choice">
-            <p class="active">All</p>
-            <p>Active</p>
-            <p>Completed</p>
+            <p class="all">All</p>
+            <p class="active">Active</p>
+            <p class="completed">Completed</p>
           </div>
           <p class="clear">Clear Completed</p>
         </div>
